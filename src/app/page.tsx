@@ -19,13 +19,13 @@ const Home = () => {
           {/* Right - Description */}
           <div>
             <h1 className="text-5xl font-bold text-gray-900 mb-4">
-              Hi, I m <span className="text-indigo-600">Rizwan Hassan</span>
+              Hi I m <span className="text-indigo-600">Rizwan Hassan</span>
             </h1>
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              "I m a passionate <strong>Web Developer</strong> specialized in{" "}
+              I m a passionate <strong>Web Developer</strong> specialized in{}
               <span className="text-indigo-600">Next.js, TypeScript, and Tailwind CSS</span>.  
-              I build modern, responsive, and scalable web applications with a focus on
-              clean design and user experience".
+              I build modern responsive and scalable web applications with a focus on
+              clean design and user experience
             </p>
             <Link 
             href="/projects"

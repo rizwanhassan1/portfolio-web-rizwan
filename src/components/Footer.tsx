@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import Link from "next/link";
 import { FaGithub, FaFacebook, FaTiktok, FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
@@ -14,10 +15,10 @@ const Footer = () => {
             Building modern, scalable, and responsive web apps with Next.js, TypeScript, and Tailwind CSS.
           </p>
           <p>
-            Mobile: <a href="tel:+923277276019" className="hover:text-white">+92 327 7276019</a>
+            Mobile: <link href="tel:+923277276019" className="hover:text-white">+92 327 7276019</link>
           </p>
           <p>
-            Email: <a href="mailto:rizwanhassan335@gmail.com" className="hover:text-white">rizwanhassan335@gmail.com</a>
+            Email: <link href="mailto:rizwanhassan335@gmail.com" className="hover:text-white">rizwanhassan335@gmail.com</link>
           </p>
         </div>
 

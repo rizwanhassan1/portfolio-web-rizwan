@@ -1,16 +1,17 @@
 import React from "react";
+import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 const Projects = () => {
   // Dummy data for 6 projects
   const projects = [
-    { id: 1, title: "Project One", image: "/com.jpg", link: "https://computer-sooty.vercel.app/" },
-    { id: 2, title: "Project Two", image: "/el.jpg", link: "https://ecproject-zeta.vercel.app/" },
-    { id: 3, title: "Project Three", image: "/md.jpg", link: "https://website-nine-tau-63.vercel.app/" },
-    { id: 4, title: "Project Four", image: "/ca.jpg", link: "https://cars-ten-gray.vercel.app/" },
-    { id: 5, title: "Project Five", image: "/pf.jpg", link: "https://portfolio-orcin-ten-44.vercel.app/" },
-    { id: 6, title: "Project Six", image: "/ri.jpg", link: "https://rizwan-mu.vercel.app/" },
+    { id: 1, title: "Project One", Image: "/com.jpg", link: "https://computer-sooty.vercel.app/" },
+    { id: 2, title: "Project Two", Image: "/el.jpg", link: "https://ecproject-zeta.vercel.app/" },
+    { id: 3, title: "Project Three", Image: "/md.jpg", link: "https://website-nine-tau-63.vercel.app/" },
+    { id: 4, title: "Project Four", Image: "/ca.jpg", link: "https://cars-ten-gray.vercel.app/" },
+    { id: 5, title: "Project Five", Image: "/pf.jpg", link: "https://portfolio-orcin-ten-44.vercel.app/" },
+    { id: 6, title: "Project Six", Image: "/ri.jpg", link: "https://rizwan-mu.vercel.app/" },
   ];
 
   return (
@@ -26,7 +27,7 @@ const Projects = () => {
               className="bg-white shadow-lg rounded-lg overflow-hidden hover:shadow-xl transition"
             >
               <img
-                src={project.image}
+                src={project.Image}
                 alt={project.title}
                 className="w-full h-48 object-cover"
               />
