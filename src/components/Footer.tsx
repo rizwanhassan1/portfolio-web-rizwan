@@ -15,10 +15,10 @@ const Footer = () => {
             Building modern, scalable, and responsive web apps with Next.js, TypeScript, and Tailwind CSS.
           </p>
           <p>
-            Mobile: <link href="tel:+923277276019" className="hover:text-white">+92 327 7276019</link>
+            Mobile: <Link href="tel:+923277276019" className="hover:text-white">+92 327 7276019</Link>
           </p>
           <p>
-            Email: <link href="mailto:rizwanhassan335@gmail.com" className="hover:text-white">rizwanhassan335@gmail.com</link>
+            Email: <Link href="mailto:rizwanhassan335@gmail.com" className="hover:text-white">rizwanhassan335@gmail.com</Link>
           </p>
         </div>
 
@@ -26,10 +26,10 @@ const Footer = () => {
         <div>
           <h3 className="text-lg font-semibold text-white mb-3">Quick Links</h3>
           <ul className="space-y-2">
-            <li><a href="/" className="hover:text-white">Home</a></li>
-            <li><a href="/about" className="hover:text-white">About</a></li>
-            <li><a href="/projects" className="hover:text-white">Projects</a></li>
-            <li><a href="/contact" className="hover:text-white">Contact</a></li>
+            <li><Link href="/" className="hover:text-white">Home</Link></li>
+            <li><Link href="/about" className="hover:text-white">About</Link></li>
+            <li><Link href="/projects" className="hover:text-white">Projects</Link></li>
+            <li><Link href="/contact" className="hover:text-white">Contact</Link></li>
           </ul>
         </div>
 
@@ -37,18 +37,18 @@ const Footer = () => {
         <div>
           <h3 className="text-lg font-semibold text-white mb-3">Follow Me</h3>
           <div className="flex gap-4">
-            <a href="https://github.com/rizwanhassan1" target="_blank" className="hover:text-white">
+            <Link href="https://github.com/rizwanhassan1" target="_blank" className="hover:text-white">
               <FaGithub size={22} />
-            </a>
-            <a href="https://www.facebook.com/share/17GKaaHGD8/" target="_blank" className="hover:text-white">
+            </Link>
+            <Link href="https://www.facebook.com/share/17GKaaHGD8/" target="_blank" className="hover:text-white">
               <FaFacebook size={22} />
-            </a>
-            <a href="https://www.tiktok.com/@maharrizwanhassan?_t=ZS-9053IbIAsjZ&_r=1" target="_blank" className="hover:text-white">
+            </Link>
+            <Link href="https://www.tiktok.com/@maharrizwanhassan?_t=ZS-9053IbIAsjZ&_r=1" target="_blank" className="hover:text-white">
               <FaTiktok size={22} />
-            </a>
-            <a href=" https://wa.me/923277276019" target="_blank" className="hover:text-white">
+            </Link>
+            <Link href=" https://wa.me/923277276019" target="_blank" className="hover:text-white">
               <FaWhatsapp size={22} />
-            </a>
+            </Link>
           </div>
         </div>
       </div>

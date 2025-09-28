@@ -23,7 +23,7 @@ const Home = () => {
             </h1>
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
               I m a passionate <strong>Web Developer</strong> specialized in{}
-              <span className="text-indigo-600">Next.js, TypeScript, and Tailwind CSS</span>.  
+              <span className="text-indigo-600">Next.js TypeScript and Tailwind CSS</span>
               I build modern responsive and scalable web applications with a focus on
               clean design and user experience
             </p>
